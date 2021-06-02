@@ -1,0 +1,13 @@
+.incomeTable{
+    max-width: 50%;
+   
+    margin-top: 20px;
+}
+
+.incomeTable .title{
+    color:lightgreen;
+}
+.incomeTable .cell-value {
+    color:lightgreen;
+    text-align: right;
+}

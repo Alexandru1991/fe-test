@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react'
+import Header from './components/header/header.js'
 import './App.css';
+import Tables from './components/tables/tables.js';
+import Manipulation from './components/manipulation/manipulation.js';
+import dataSet from './assets/ExpensesAndIncomes.json'
 
 function App() {
+  const AddElementToTable = () => {
+
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header Income={dataSet.incomes} Expense = {dataSet.expenses}/>
+      <Manipulation addElementToTable={AddElementToTable}/>
+      <Tables className='tables'/>
     </div>
   );
 }

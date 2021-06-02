@@ -1,0 +1,25 @@
+.jumboHeader{
+    min-height: 30vh;
+    background-image: url('../../assets/testimonials.png');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 10vh;
+
+}
+.income {
+    padding:15px 30px;
+    margin: 20px auto;
+    background-color: lightgreen;
+    max-width: 150px;
+}
+h2{
+    font-weight: 100;
+}
+.expense{
+    padding:15px 30px;
+    margin:20px auto;
+    background-color: lightpink;
+    max-width: 150px;
+}

@@ -1,0 +1,7 @@
+.expenseTable .title{
+    color:lightpink;
+}
+.expenseTable .cell-value {
+    color:lightpink;
+    text-align: right;
+}

@@ -1,0 +1,14 @@
+.manipulation-zone{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown{
+    max-width: 250px;
+    margin: 0 10px;
+    
+
+}
+input{
+    margin:0 10px;
+}

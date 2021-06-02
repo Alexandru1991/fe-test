@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.App .tables {
+  display: flex;
+  flex-grow: 1;
+  max-width: 650px;
+
+  justify-content: center;
+  margin: 40px auto;
+
+}
+.App .tables > div{
+  margin: 15px;
+}
