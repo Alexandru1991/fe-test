@@ -1,3 +1,5 @@
+@import '../../assets/variables.scss';
+
 .jumboHeader{
     min-height: 30vh;
     background-image: url('../../assets/testimonials.png');
@@ -11,7 +13,7 @@
 .income {
     padding:15px 30px;
     margin: 20px auto;
-    background-color: lightgreen;
+    background-color: $green;
     max-width: 150px;
 }
 h2{
@@ -20,6 +22,6 @@ h2{
 .expense{
     padding:15px 30px;
     margin:20px auto;
-    background-color: lightpink;
+    background-color: $red;
     max-width: 150px;
 }

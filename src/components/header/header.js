@@ -1,7 +1,7 @@
 import React  from 'react'
 
 import {useEffect, useState } from "react"
-import './header.css'
+import './header.scss'
 function Header (props) {
    
     const dataItemsIncomes= props.Income;

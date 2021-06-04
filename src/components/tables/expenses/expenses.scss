@@ -1,7 +1,9 @@
+@import '../../../assets/variables.scss';
+
 .expenseTable .title{
-    color:lightpink;
+    color:$red;
 }
 .expenseTable .cell-value {
-    color:lightpink;
+    color:$red;
     text-align: right;
 }

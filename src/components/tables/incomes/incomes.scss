@@ -1,3 +1,5 @@
+@import '../../../assets/variables.scss';
+
 .incomeTable{
     max-width: 50%;
    
@@ -5,9 +7,9 @@
 }
 
 .incomeTable .title{
-    color:lightgreen;
+    color:$green;
 }
 .incomeTable .cell-value {
-    color:lightgreen;
+    color:$green;
     text-align: right;
 }

@@ -1,15 +1,16 @@
 import React from 'react'
-import dataSet from '../../assets/ExpensesAndIncomes.json'
+
 import Expenses from './expenses/expenses'
 import Incomes from './incomes/incomes'
 
 
 function Tables (props) {
-
+    const tables = props.updateObj
+    console.log(tables);
     return (
         <div className="tables">
-              <Incomes IncomesData= {dataSet.incomes} />
-              <Expenses ExpenseData= {dataSet.expenses}/>
+              <Incomes IncomesData= {tables.incomes} />
+              <Expenses ExpenseData= {tables.expenses}/>
         </div>
     )
 }
